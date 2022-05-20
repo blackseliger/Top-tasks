@@ -12,7 +12,7 @@
 
 ## Preview
 
-[![preview](./preview.gif)]
+(./preview.gif)
 
 ## Tech stack
 

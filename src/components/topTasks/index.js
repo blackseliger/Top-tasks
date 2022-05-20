@@ -20,11 +20,11 @@ export default class topTasks {
 
         const { listPinned, listDefault } = this.subElements;
 
-        const text = event.target.value;
+        const text = event.target.value.toLowerCase();
         this.filterDefault = filterArr(this.tasks, text);
         this.filterPin = filterArr(this.pinnedTasks, text);
 
-        listPinned.innerHTML = this.getListTasks(this.filterPin);
+        // listPinned.innerHTML = this.getListTasks(this.filterPin);
         listDefault.innerHTML = this.getListTasks(this.filterDefault);
         this.showHidden();
 
