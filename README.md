@@ -1,7 +1,7 @@
 # Top Tasks
 [![Build status](https://ci.appveyor.com/api/projects/status/f6y8u478boyplubv?svg=true)](https://ci.appveyor.com/project/blackseliger/top-tasks)
 
-
+GP :sparkles: https://blackseliger.github.io/Top-tasks/ :sparkles:
 **Important!**
 
 Для корректного билда следуйте версиям ниже
