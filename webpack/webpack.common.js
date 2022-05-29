@@ -18,10 +18,10 @@ module.exports = {
     styles: path.join(__dirname, '../src/styles/all.css')
   },
   output: {
-    publicPath: "",
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, '../build'),
-    chunkFilename: '[name]-[id].js'
+    chunkFilename: '[name]-[id].js',
+    publicPath: '',
   },
   module: {
     rules: [
@@ -67,7 +67,7 @@ module.exports = {
           to: "assets/[path][name][ext]",
         },
         {
-          from: path.join(__dirname, '../src/components/product-form/*.svg'),
+          from: path.join(__dirname, '../src/components/cardValidator/*.png'),
           to: "[name][ext]",
           noErrorOnMissing: true
         }
